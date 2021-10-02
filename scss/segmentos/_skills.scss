@@ -1,0 +1,21 @@
+
+@import "mixin/main";
+@import "base/color";
+
+@include main;
+
+.lenguaje__font--color{
+    color: $verde-claro;
+    background-color: $color-negro;
+}
+
+
+.progress-bar{
+    background: $verde-claro;
+    color: $color-negro;
+    font-weight: bold;
+}
+
+
+
+

@@ -1,0 +1,21 @@
+@import "mixin/main";
+
+@include main;
+
+.title{  
+  
+  @include phone{
+    color: rgb(0, 0, 0);
+  }
+
+}
+
+.dev{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0;
+  font-size: 2.5em;
+    
+  color: rgb(4, 143, 148);
+}
+

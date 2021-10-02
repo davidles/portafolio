@@ -1,0 +1,24 @@
+@import "mixin/media-screen";
+  
+    header{
+     
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        
+  
+        img{
+          width: 50px;
+          position: fixed;
+          z-index: 40;
+
+          @include phone{
+            width: 40px;
+          }
+
+
+        }
+      
+      }
+      

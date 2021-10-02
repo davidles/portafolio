@@ -1,0 +1,81 @@
+@import "mixin/media-screen";
+
+@mixin main {
+  .container-fluid {
+    width: 100%;
+    margin: 0;
+    z-index: 20;
+
+    .main {
+      position: relative;
+      padding: 10px;
+      margin-top: 100px;
+      color: $color-blanco;
+      text-align: left;
+      text-shadow: $sombra;
+
+
+
+
+      @include tablet {
+        margin-top: 10px;
+
+      }
+
+      .works {
+        height: auto;
+      }
+
+
+      /*Titulos*/
+
+      .title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 3em;
+        color: $color-verde;
+        letter-spacing: 0;
+        line-height: 70px;
+        text-shadow: $sombra;
+
+
+        @include phone {
+          font-size: 2.5em;
+        }
+
+      }
+
+      .dev {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        letter-spacing: 0;
+        font-size: 2.5em;
+        color: rgb(4, 143, 148);
+        text-shadow: $sombra;
+
+        @include phone {
+          font-size: 2em;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: $color-verde;
+      }
+
+      .main__h2 {
+
+        .main__h2--color {
+
+          color: rgb(61, 15, 15);
+        }
+
+      }
+
+
+
+    }
+
+  }
+
+}

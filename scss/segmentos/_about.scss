@@ -1,0 +1,16 @@
+@import "mixin/main";
+
+@include main;
+
+.academia{
+    background-color: yellowgreen;
+    font-family: 'Cutive Mono', monospace;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#titulo-preparacion{
+    background-color: black;
+}
+

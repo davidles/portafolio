@@ -1,0 +1,35 @@
+@import "mixin/main";
+@import "base/color";
+
+@include main;
+
+.card{
+   background: rgba(0, 0, 0, 0.205);
+   color: $verde-claro;
+   
+
+    .card-header{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        color: $verde-claro;
+        text-transform: uppercase;
+    
+        a{
+            color: $verde-claro;
+    
+            i{
+                font-size: 20px;
+        
+                &:hover{
+                    color: rgb(4, 143, 148);
+                    font-size: 18px;
+                }
+            }
+    
+        }
+    
+    }
+
+}
+
