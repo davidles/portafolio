@@ -12,7 +12,7 @@
     letter-spacing: 5px;
     line-height: 30px;
     background: #000e39;
-    background: linear-gradient(90deg, rgba(0, 14, 57, 0.877) 0%, rgba(1, 16, 91, 0.877) 51%, rgba(0, 14, 57, 0.877) 100%), url(../../img/bg.jpg); }
+    background: linear-gradient(90deg, rgba(0, 14, 57, 0.877) 0%, rgba(1, 16, 91, 0.877) 51%, rgba(0, 14, 57, 0.877) 100%), url(./img/bg.jpg); }
 
 header {
   position: relative;
